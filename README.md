@@ -1,16 +1,6 @@
 # DevOps-Address-Book
 DevOps AddressBook – CI/CD Automation using Jenkins &amp; Docker  This repository contains a DevOps implementation of the AddressBook application, demonstrating a complete automation workflow using Jenkins pipelines and Docker containerization.
 Addressbook Tutorial
-====================
-![Addressbook Screenshot](addressbook_screenshot.png "Addressbook Screenshot")
-
-
-Running the example from the command line
--------------------
-```
-$ mvn jetty:run
-```
-
 Open [http://localhost:8080/](http://localhost:8080/)
 To get the project up and running in IDEA, do:
 - File -> New -> Project from Version Control -> Git
@@ -20,8 +10,6 @@ To get the project up and running in IDEA, do:
 - To start the project, find the "Maven Projects" tab on the right hand side of the screen and navigate to
   - Vaadin Web Application -> Plugins -> jetty -> jetty:run
   - Click the play button or right click and select Run (Select Debug instead to run in debug mode)
-
-You should now have a Jetty server running on localhost:8080. Navigate to http://localhost:8080 to play with the application
 
 Importing in NetBeans 8
 --------------------
