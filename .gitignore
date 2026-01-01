@@ -1,0 +1,69 @@
+# === Operating System Files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code Editor Files ===
+.vscode/
+*.code-workspace
+
+# === Logs & Temp Files ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.swp
+*.swo
+
+# === Build & Dependency Files (common stacks) ===
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Java (if applicable)
+target/
+*.class
+*.jar
+*.war
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+
+# Maven / Gradle (if applicable)
+.settings/
+*.iml
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+build/
+
+# === Docker Files ===
+docker-compose.override.yml
+docker-volumes/
+*.tar
+
+# === Jenkins Files ===
+jenkins_home/
+
+# === Environment & Secrets ===
+.env
+.env.*
+*.key
+*.pem
+*.cert
+secrets.yaml
+
+# === IDE Specific ===
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Backup Files ===
+*.bak
+*.tmp
+*.old
+*~
